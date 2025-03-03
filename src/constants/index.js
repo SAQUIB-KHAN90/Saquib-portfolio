@@ -138,10 +138,23 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "Cloudblitz | Powered By Greamio",
+    icon: snapgram,
+    iconBg: "#accbe1",
+    date: "Aug 2024 - Feb 2025",
+    points: [
+      "Worked on API Development & Integration – Developed RESTful APIs in Spring Boot to handle CRUD operations and integrated them with the frontend for real-time data updates..",
+      "Designed and Implemented User Authentication – Created login and registration forms using React (frontend) and Spring Security (backend), ensuring secure user access and authentication.",
+      " Built a Student Registration System – Developed a React + Spring Boot application where users can register students with details like class and percentage, storing data in MariaDB.",
+      "  Debugged and Optimized Application Performance – Identified and fixed bugs in both frontend and backend, optimized database queries, and improved API response time for a smoother user experience..",
+    ],
+  },
+  {
     title: "B.Tech(Computer Science & Engineering)",
     company_name: "Dr A.P.J Abdul Kalam Technical University",
     icon: university,
-    iconBg: "#accbe1",
+    iconBg: "#b7e4c7",
     date: "Dec 2020 - July 2024",
     points: [
       "Gained a solid foundation in core computer science concepts such as algorithms, data structures, and databases.",
@@ -153,8 +166,8 @@ export const experiences = [
   {
     title: "SAE Drone Pilots Runner UP",
     company_name: "SAE DRONE",
-    icon: star,
-    iconBg: "#b7e4c7",
+    icon: certificate,
+    iconBg: "#fbc3bc",
     date: "Aug 2022 - Sep 2022",
     points: [
       " Achieved second place in a national-level drone competition, showcasing technical and problem-solving skills.",
@@ -166,27 +179,14 @@ export const experiences = [
   {
     title: "FrontEnd Mania",
     company_name: "NareshIT",
-    icon: certificate,
-    iconBg: "#fbc3bc",
+    icon: code,
+    iconBg: "#a2d2ff",
     date: "July 2023 - Dec 2023",
     points: [
       "Mastered the fundamentals of creating responsive and interactive websites.",
       "Built hands-on projects showcasing user-friendly interfaces and efficient design.",
       "Gained practical experience in debugging and optimizing code for performance.",
       "Enhanced problem-solving skills by working on real-world scenarios and challenges.",
-    ],
-  },
-  {
-    title: "JavaScript DSA & Algo by freecodecamp",
-    company_name: "Freecodecamp",
-    icon: code,
-    iconBg: "#a2d2ff",
-    date: "Jan 2024 - March 2024",
-    points: [
-      " Gained a solid understanding of fundamental data structures such as arrays, linked lists, stacks, and trees.",
-      "  Mastered algorithms including sorting, searching, and recursion, applying them to solve complex coding challenges.",
-      " Developed problem-solving skills by completing hands-on projects and exercises focused on optimizing code efficiency.",
-      " Applied DSA knowledge to real-world scenarios, improving computational thinking and coding performance.",
     ],
   },
 
